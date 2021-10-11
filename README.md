@@ -5,6 +5,8 @@
 shell
 ```
 alias kd='kafkacat -b localhost:29092'
+alias kafkaOn='docker-compose -f {path}/docker-compose-kafka-zookeeper.yaml up -d'
+alias kafkaOff='docker-compose -f {path}/docker-compose-kafka-zookeeper.yaml down'
 ```
 
 ## MySQL
